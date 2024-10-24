@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi Foto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Link ke Google Fonts -->
+    <style>
+        body {
+            background: linear-gradient(to right, red, blue); /* Gradiant merah ke biru */
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .header-text {
+            color: black;
+            font-family: 'Pacifico', cursive;
+            font-size: 36px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border: 3px solid #FFD700;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .menu-bar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .menu-bar a {
+            font-size: 20px;
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        .menu-bar a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu Bar -->
+    <div class="menu-bar">
+        <a href="index.html">Home</a>
+        <a href="halaman kegiatan.html">Kegiatan</a>
+        <a href="halaman profil.html">Profil</a>
+        <a href="koleksi foto.html">Koleksi Foto</a>
+        <a href="puisi teman.html">Puisi</a>
+        <li><a href="mailto:andrelamunde04@gmal.com">Email saya</a></li>
+    </div>
+
+    <div class="container">
+        <p class="header-text">KOLEKSI FOTO</p>
+
+        <!-- Galeri Foto -->
+        <div class="gallery">
+            <img src="a.jpg" alt="Foto 1">
+            <img src="b.jpg" alt="Foto 2">
+            <img src="c.jpg" alt="Foto 3">
+            <img src="d.jpg" alt="Foto 4">
+            
+        </div>
+    </div>
+
+</body>
+</html>

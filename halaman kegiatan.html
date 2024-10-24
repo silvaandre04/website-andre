@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Kegiatan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Link ke Google Fonts -->
+    <style>
+        body {
+            background: linear-gradient(to right, red, blue); /* Gradiant merah ke biru */
+            font-family: Arial, sans-serif;
+            color: white; /* Warna teks default putih */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            max-width: 250px; /* Batas maksimal lebar sidebar */
+            padding: 10px;
+        }
+        .content {
+            flex: 3;
+            padding: 20px;
+        }
+        .header-text {
+            color: black;
+            font-family: 'Pacifico', cursive;
+            font-size: 36px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
+        }
+        .activity-text {
+            font-family: 'Roboto', sans-serif;
+            color: #FFD700;
+            font-size: 16px;
+            text-align: left;
+        }
+        .activity-section {
+            margin-bottom: 30px;
+        }
+        .activity-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        img {
+            border: 1px solid black;
+            width: 100%;
+            height: auto;
+            max-width: 400px; /* Batas maksimal lebar gambar */
+            display: block;
+            margin: 10px auto; /* Pusatkan gambar */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        a {
+            text-decoration: none;
+            color: #FFD700;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #fff700;
+        }
+        .menu-bar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .menu-bar a {
+            font-size: 20px;
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        .menu-bar a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu Bar -->
+    <div class="menu-bar">
+        <a href="index.html">Home</a> <!-- Tautan ke halaman utama -->
+        <a href="halaman kegiatan.html">halaman kegiatan</a>
+        <a href="halaman profil.html">Profil</a>
+        <a href="Koleksi Foto.htm">Koleksi Foto</a>
+        <a href="puisi teman.html">Puisi</a>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="1.jpg" alt="foto andrelamunde04" style="width:100%; height:auto; border-radius:10px;"> <!-- Mengatur gambar menjadi responsif dan berukuran kecil -->
+            <ul>
+                <li><a href="halaman kegiatan.html">Halaman Kegiatan</a></li>
+                <li><a href="halaman profil.html">Halaman Profil</a></li>
+                <li><a href="Koleksi Foto.htm">Koleksi Foto</a></li>
+                <li><a href="puisi teman.html">Puisi Teman-temanku</a></li>
+                <li><a href="mailto:andrelamunde04@gmal.com">Email saya</a></li>
+            </ul>
+        </div>
+
+        <!-- Konten Utama -->
+        <div class="content">
+            <p class="header-text">KEGIATAN SAYA</p>
+            <div class="activity-text">
+                <p>Berikut ini adalah beberapa kegiatan yang saya lakukan:</p>
+
+                <!-- Kegiatan 1 -->
+                <div class="activity-section">
+                    <p class="activity-title">Kegiatan 1: bersama ketua presidium organisasi katolik PMKRI cabang mataram</p>
+                    <p>Selesai rapat bersama anggota cabang PMKRI (perhimpunan mahasiswa katolik repoblik indonesia) mataram.</p>
+                    <img src="a.jpg" alt="Foto kegiatan bersepeda"> <!-- Gambar dengan ukuran maksimal yang lebih kecil -->
+                </div>
+
+                <!-- Kegiatan 2 -->
+                <div class="activity-section">
+                    <p class="activity-title">Kegiatan 2: penyambutan sekretaris jendral  PMKRI pusat</p>
+                    <p>penyambutan sekretaris jendral PMKRI pusat dengan menggunakan tarian budaya sumba barat daya (SBD). di sini penyambutan sekretaris pusat tersebut karna kami dari perhimpunan mahasiswa katolik dengan angenda pelantikan ketua presidium 
+                        yang baru saja terpilih periode 2024/2025.
+                    </p>
+                    <img src="c.jpg" alt="Foto kegiatan membaca">
+                </div>
+
+                <!-- Kegiatan 3 -->
+                <div class="activity-section">
+                    <p class="activity-title">Kegiatan 3: rekreasi bersama PMKRI cabang mataram</p>
+                    <p>tujuan dari kegitan tersebut dalah untuk melepaskan lelah bersama dan lebih eratnya tali persaudaraan kokoh.</p>
+                    <img src="b.jpg" alt="Foto kegiatan seminar">
+                </div>
+
+                <!-- Kegiatan 4 -->
+                <div class="activity-section">
+                    <p class="activity-title">Kegiatan 4: Diskusi Kreatif Bersama Teman-teman</p>
+                    <p>Berkumpul bersama teman-teman untuk berbagi ide kreatif adalah hal yang sangat saya nikmati.</p>
+                    <img src="d.jpg" alt="Foto kegiatan diskusi">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
